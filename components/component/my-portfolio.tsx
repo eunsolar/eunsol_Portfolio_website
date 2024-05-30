@@ -27,7 +27,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 
-export function myPortfolio() {
+export default function Home() {
   return (
     <div className="flex h-screen w-full flex-col">
       <header className="flex h-16 items-center justify-between border-b bg-gray-100 px-6 dark:border-gray-800 dark:bg-gray-950">
