@@ -1,7 +1,10 @@
 import Image from "next/image";
-import { Layout } from "lucide-react";
+import MyPortfolio from "@/components/component/my-portfolio";
+
 export default function Home() {
   return (
-    <Layout />
+    <div>
+      <MyPortfolio />
+    </div>
   );
 }
