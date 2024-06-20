@@ -113,9 +113,9 @@ export default function Home() {
                     width={400}
                   />
                   <div className="mt-4">
-                    <h3 className="text-lg font-semibold">Mobile Game</h3>
+                    <h3 className="text-lg font-semibold">Mobile Game : With Us</h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      A casual mobile game with a unique art style and engaging gameplay.
+                      A casual mobile game with a unique art style and engaging gameplay. It is a mystery mystery game that combines online mafia and investigation. Users are divided into mafia, police, and citizens to win if they break a quest that meets their mission.
                     </p>
                   </div>
                 </div>
@@ -128,9 +128,9 @@ export default function Home() {
                     width={400}
                   />
                   <div className="mt-4">
-                    <h3 className="text-lg font-semibold">Console Game</h3>
+                    <h3 className="text-lg font-semibold">Console Game : Ready to forest </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      A story-driven console game with a focus on exploration and character development.
+                      A story-driven console game with a focus on exploration and character development. Dig into the secrets that happened in the forest. Gather your colleagues and fight and solve the events that happened in the forest. It's a log-like type of game, and it's a change RPG game where skills change based on the combination of your colleagues.
                     </p>
                   </div>
                 </div>
@@ -143,9 +143,9 @@ export default function Home() {
                     width={400}
                   />
                   <div className="mt-4">
-                    <h3 className="text-lg font-semibold">VR Game</h3>
+                    <h3 className="text-lg font-semibold">VR Game : My puppy friend</h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      A virtual reality game that immerses players in a unique world with innovative gameplay mechanics.
+                    It is a game of raising a fictional dog. Users can raise a variety of dogs they want and enjoy raising realistic pets.
                     </p>
                   </div>
                 </div>
