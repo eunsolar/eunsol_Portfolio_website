@@ -87,7 +87,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="space-y-4">
-                  <h1 className="text-3xl font-bold">Welcome to my Portfolio</h1>
+                  <h1 className="text-3xl font-bold">Welcome to my portfolio</h1>
                   <p className="text-gray-500 dark:text-gray-400">
                     I am a passionate game designer with a strong background in creating engaging and immersive gaming
                     experiences. My portfolio showcases a variety of projects I have worked on, ranging from mobile
