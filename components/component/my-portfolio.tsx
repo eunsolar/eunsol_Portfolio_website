@@ -23,6 +23,7 @@ To read more about using these font, please visit the Next.js documentation:
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -50,7 +51,7 @@ export default function Home() {
           <div className="mt-8 flex flex-1 flex-col gap-4">
             <Link
               className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-              href="#Portfolio"
+              href="#Portfolio" about=""
             >
               <GalleryThumbnailsIcon className="h-4 w-4" />
               <span>Portfolio</span>
@@ -102,7 +103,7 @@ export default function Home() {
               <h2 className="mb-6 text-2xl font-bold" id="Portfolio">Portfolio</h2>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
-                  <img
+                  <Image
                     alt="Game Screenshot"
                     className="aspect-video rounded-lg object-cover"
                     height={300}
@@ -117,7 +118,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
-                  <img
+                  <Image
                     alt="Game Screenshot"
                     className="aspect-video rounded-lg object-cover"
                     height={300}
@@ -127,12 +128,12 @@ export default function Home() {
                   <div className="mt-4">
                     <h3 className="text-lg font-semibold">Ready to forest </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      A story-driven console game with a focus on exploration and character development. Dig into the secrets that happened in the forest. It's a log-like type of game, and it's a change RPG game where skills change based on the combination of your colleagues.
+                      A story-driven console game with a focus on exploration and character development. Dig into the secrets that happened in the forest. It&apos;s a log-like type of game, and it&apos;s a change RPG game where skills change based on the combination of your colleagues.
                     </p>
                   </div>
                 </div>
                 <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
-                  <img
+                  <Image
                     alt="Game Screenshot"
                     className="aspect-video rounded-lg object-cover"
                     height={300}
@@ -195,7 +196,7 @@ export default function Home() {
                   <span className="text-gray-500 dark:text-gray-400">eunsol.kim@example.com</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <LinkedInIcon className="h-5 w-5 text-gray-500 dark:text-gray-400" />
+                  <LinkedinIcon className="h-5 w-5 text-gray-500 dark:text-gray-400" />
                   <span className="text-gray-500 dark:text-gray-400">linkedin.com/in/eunsol-kim</span>
                 </div>
               </div>
