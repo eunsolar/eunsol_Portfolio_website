@@ -36,17 +36,7 @@ export default function Home() {
             <GamepadIcon className="h-6 w-6" />
             <span>Game Designer</span>
           </Link>
-        </div>
-        <div className="flex items-center gap-4">
-          <Button className="rounded-full" size="icon" variant="ghost">
-            <MoonIcon className="h-6 w-6" />
-            <span className="sr-only">Toggle dark mode</span>
-          </Button>
-          <Button className="rounded-full" size="icon" variant="ghost">
-            <BellIcon className="h-6 w-6" />
-            <span className="sr-only">Toggle notifications</span>
-          </Button>
-        </div>
+          </div>
       </header>
       <div className="flex flex-1">
         <nav className="hidden h-full w-64 flex-col border-r bg-gray-100 p-6 dark:border-gray-800 dark:bg-gray-950 lg:flex">
@@ -56,7 +46,7 @@ export default function Home() {
               <AvatarFallback>GD</AvatarFallback>
             </Avatar>
             <div className="text-center">
-              <div className="font-semibold">John Doe</div>
+              <div className="font-semibold">Eunsol Kim</div>
               <div className="text-sm text-gray-500 dark:text-gray-400">Game Designer</div>
             </div>
           </div>
@@ -66,21 +56,21 @@ export default function Home() {
               href="#"
             >
               <GalleryThumbnailsIcon className="h-4 w-4" />
-              Portfolio
+             <a href="#Portfolio"> Portfolio </a>
             </Link>
             <Link
               className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
               href="#"
             >
               <BriefcaseIcon className="h-4 w-4" />
-              Experience
+              <a href="#Experience">Experience</a>
             </Link>
             <Link
               className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-500 transition-all hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
               href="#"
             >
               <MailIcon className="h-4 w-4" />
-              Contact
+              <a href="#Contact">Contact</a>
             </Link>
           </div>
         </nav>
@@ -94,7 +84,7 @@ export default function Home() {
                     <AvatarFallback>GD</AvatarFallback>
                   </Avatar>
                   <div className="text-center">
-                    <div className="font-semibold">John Doe</div>
+                    <div className="font-semibold">Eunsol Kim </div>
                     <div className="text-sm text-gray-500 dark:text-gray-400">Game Designer</div>
                   </div>
                 </div>
@@ -112,14 +102,14 @@ export default function Home() {
           </section>
           <section className="border-t border-gray-200 bg-gray-100 p-6 dark:border-gray-800 dark:bg-gray-950 lg:p-10">
             <div className="mx-auto max-w-3xl">
-              <h2 className="mb-6 text-2xl font-bold">Portfolio</h2>
+              <h2 className="mb-6 text-2xl font-bold" id="Portfolio">Portfolio</h2>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm dark:border-gray-800 dark:bg-gray-950 dark:border-gray-800">
                   <img
                     alt="Game Screenshot"
                     className="aspect-video rounded-lg object-cover"
                     height={300}
-                    src="/placeholder.svg"
+                    src="/PORT-1.jpg"
                     width={400}
                   />
                   <div className="mt-4">
@@ -134,7 +124,7 @@ export default function Home() {
                     alt="Game Screenshot"
                     className="aspect-video rounded-lg object-cover"
                     height={300}
-                    src="/placeholder.svg"
+                    src="/PORT-3.jpg"
                     width={400}
                   />
                   <div className="mt-4">
@@ -149,7 +139,7 @@ export default function Home() {
                     alt="Game Screenshot"
                     className="aspect-video rounded-lg object-cover"
                     height={300}
-                    src="/placeholder.svg"
+                    src="/PORT-2.jpg"
                     width={400}
                   />
                   <div className="mt-4">
@@ -164,7 +154,7 @@ export default function Home() {
           </section>
           <section className="border-t border-gray-200 bg-gray-100 p-6 dark:border-gray-800 dark:bg-gray-950 lg:p-10">
             <div className="mx-auto max-w-3xl">
-              <h2 className="mb-6 text-2xl font-bold">Experience</h2>
+              <h2 className="mb-6 text-2xl font-bold" id="Experience">Experience</h2>
               <div className="space-y-6">
                 <div>
                   <h3 className="text-lg font-semibold">Game Designer</h3>
@@ -197,14 +187,14 @@ export default function Home() {
           </section>
           <section className="border-t border-gray-200 bg-gray-100 p-6 dark:border-gray-800 dark:bg-gray-950 lg:p-10">
             <div className="mx-auto max-w-3xl">
-              <h2 className="mb-6 text-2xl font-bold">Contact</h2>
+              <h2 className="mb-6 text-2xl font-bold" id="Contact">Contact</h2>
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <MailIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
                   <div>
                     <div className="font-medium">Email</div>
                     <a className="text-sm text-gray-500 hover:underline dark:text-gray-400" href="#">
-                      john.doe@example.com
+                      ensolar07@gmail.com
                     </a>
                   </div>
                 </div>
@@ -221,8 +211,8 @@ export default function Home() {
                   <LinkedinIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
                   <div>
                     <div className="font-medium">LinkedIn</div>
-                    <a className="text-sm text-gray-500 hover:underline dark:text-gray-400" href="#">
-                      linkedin.com/in/johndoe
+                    <a className="text-sm text-gray-500 hover:underline dark:text-gray-400" href="">
+                      linkedin.com/in/ensolar
                     </a>
                   </div>
                 </div>
